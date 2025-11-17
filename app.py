@@ -44,6 +44,7 @@ OCR_API_KEY = os.getenv("OCR_API_KEY", "").strip() or None
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip() or None
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-pro-latest")
 
+
 if genai and GEMINI_API_KEY:
     try:
         genai.configure(api_key=GEMINI_API_KEY)
