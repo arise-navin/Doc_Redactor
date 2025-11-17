@@ -40,8 +40,8 @@ except Exception:
 # -------------------------------
 # CONFIGURATION
 # -------------------------------
-OCR_API_KEY = os.getenv("OCR_API_KEY", "").strip() or None
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip() or None
+OCR_API_KEY = os.getenv("OCR_API_KEY", "K85450490888957").strip() or None
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyClP2B1jdADvbxd8I96w5Fok8aZZQfXEbQ").strip() or None
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-pro-latest")
 
 
